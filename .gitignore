@@ -87,3 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+#self
+9_package_management/code/hello_epm/
+*.png
+*.swp
