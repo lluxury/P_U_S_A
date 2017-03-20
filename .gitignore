@@ -87,7 +87,11 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
 #self
 9_package_management/code/hello_epm/
 *.png
 *.swp
+3_text/large_re_file.txt
+5_network/code/port_checker_tcp.py

@@ -12,8 +12,8 @@ epm_keyword = {"ubuntu":"dpkg", "redhat":"rpm", "SunOS":"pkg", "osx":"osx"}
 #except Exception, err:
 #    print err
 
-if epm_keyword.has_key(os):
+#if epm_keyword.has_key(os):
+if os in epm_keyword:
         platform_cmd = epm_keyword[os]
 
 subprocess.call("epm -f %s helloEPM hello_epm.list" % platform_cmd, shell=True)
-
