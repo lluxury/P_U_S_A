@@ -94,4 +94,5 @@ ENV/
 *.png
 *.swp
 3_text/large_re_file.txt
-5_network/code/port_checker_tcp.py
+5_network/code/
+9_package_management/code/
